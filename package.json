@@ -1,0 +1,24 @@
+{
+  "name": "tezos-bare-box",
+  "version": "2.0.0",
+  "description": "Tezos Bare Box =================",
+  "dependencies": {
+    "@taquito/taquito": "^10.0.0",
+    "curl": "^0.1.4",
+    "truffle": "^5.5.23"
+  },
+  "scripts": {
+    "web:dev": "cd web && yarn dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truffle-box/tezos-bare-box.git"
+  },
+  "keywords": [
+    "tezos",
+    "blockchain",
+    "truffle"
+  ],
+  "author": "Damian Barabonkov <damianb@mit.edu>",
+  "license": "MIT"
+}
